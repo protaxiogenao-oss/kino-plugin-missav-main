@@ -1,0 +1,121 @@
+{
+  "id": "missav",
+  "name": "MissAV",
+  "version": "1.4.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "description": "JAV de MissAV. Solo +18. Rutas tipo CloudStream; navegador oculto + HLS. Nota: surrit.com puede dar 403 en algunos Android TV.",
+  "author": "community",
+  "homepage": "https://github.com/example/kino-plugin-missav",
+  "icon": "icon.png",
+  "hosts": [
+    "missav.ai",
+    "www.missav.ai",
+    "*.missav.ai",
+    "missav.ws",
+    "www.missav.ws",
+    "*.missav.ws",
+    "missav.live",
+    "*.missav.live",
+    "missav.re",
+    "*.missav.re",
+    "surrit.com",
+    "*.surrit.com",
+    "cdn.missav.com",
+    "*.missav.com",
+    "fivetiu.com",
+    "*.fivetiu.com",
+    "img.doppiocdn.com",
+    "*.doppiocdn.com",
+    "fourhoi.com",
+    "*.fourhoi.com",
+    "sixyik.com",
+    "*.sixyik.com",
+    "nineyu.com",
+    "*.nineyu.com",
+    "missav123.com",
+    "*.missav123.com"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "resolve"
+  ],
+  "color": "#7B28A0",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "key": "mirror",
+      "label": "Servidor / mirror",
+      "type": "select",
+      "default": "https://missav.live",
+      "options": [
+        {
+          "value": "https://missav.live",
+          "label": "missav.live"
+        },
+        {
+          "value": "https://missav.ai",
+          "label": "missav.ai"
+        },
+        {
+          "value": "https://missav.ws",
+          "label": "missav.ws"
+        },
+        {
+          "value": "https://missav.re",
+          "label": "missav.re"
+        }
+      ]
+    },
+    {
+      "key": "lang",
+      "label": "Idioma de la web",
+      "type": "select",
+      "default": "en",
+      "options": [
+        {
+          "value": "en",
+          "label": "English"
+        },
+        {
+          "value": "cn",
+          "label": "中文"
+        },
+        {
+          "value": "ja",
+          "label": "日本語"
+        }
+      ]
+    },
+    {
+      "key": "quality",
+      "label": "Calidad preferida",
+      "type": "select",
+      "default": "hls",
+      "options": [
+        {
+          "value": "hls",
+          "label": "HLS (mejor)"
+        },
+        {
+          "value": "720",
+          "label": "720p"
+        },
+        {
+          "value": "480",
+          "label": "480p"
+        },
+        {
+          "value": "360",
+          "label": "360p"
+        }
+      ]
+    }
+  ],
+  "browser": true
+}
