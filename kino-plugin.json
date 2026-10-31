@@ -5,8 +5,9 @@
   "apiVersion": 6,
   "entry": "plugin.js",
   "description": "JAV de MissAV. Solo +18. Rutas tipo CloudStream; navegador oculto + HLS. Nota: surrit.com puede dar 403 en algunos Android TV.",
-  "author": "community",
-  "homepage": "https://github.com/example/kino-plugin-missav",
+  "author": "Hotaru Yume",
+  "creator": "hotaruyume",
+  "homepage": "https://github.com/protaxiogenao-oss/kino-plugin-missaavicco-main",
   "icon": "icon.png",
   "hosts": [
     "missav.ai",
